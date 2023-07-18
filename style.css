@@ -1,73 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Foldit:wght@500&family=Kablammo&family=Montserrat:ital,wght@0,300;1,100;1,300&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,200;0,500;0,900;1,500;1,600&family=Raleway:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900&family=Roboto:wght@300&family=Work+Sans:wght@400;500;700;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans';
 }
+
 /* ############# nav section styling ############## */
-.header-section-nav{
+.header-section-nav {
     display: flex;
     justify-content: space-around;
     gap: 7rem;
     align-items: center;
     padding-top: 38px;
 }
-.nav-items ul{
+
+.nav-items ul {
     display: flex;
-   gap: 2.5rem;
-   align-items: center;
+    gap: 2.5rem;
+    align-items: center;
 }
-.nav-items li{
+
+.nav-items li {
     list-style: none;
 }
-.follow-us-btn{
-    background-color:rgba(11, 2, 35, 0.10);
+
+.follow-us-btn {
+    background-color: rgba(11, 2, 35, 0.10);
     padding: 18px 18px 18px 24px;
     border-radius: 8px;
 }
-.nav-items a{
+
+.nav-items a {
     text-decoration: none;
     color: #3C354F;
- font-size: 18px;
+    font-size: 18px;
 
 }
-.header-logo-icon{
-  font-size:45px;
+
+.header-logo-icon {
+    font-size: 45px;
 
 }
-.color-red{
+
+.color-red {
     color: red;
     margin-right: 16px;
     margin-left: 24px;
 }
-.color-blue{
+
+.color-blue {
     color: blue;
 }
-.color-pink{
+
+.color-pink {
     color: #FF42A5;
 }
 
 /* ############### goat-section-styling ########## */
-.goat-section-main{
+.goat-section-main {
     display: flex;
     justify-content: center;
     gap: 68px;
     align-items: center;
+    background-color:  rgba(241, 68, 174, 0.03);
+    margin-top: 37px;
+ 
 }
-.goat-section-main-contant{
-    background-color: ;
+
+.goat-section-main-contant {
+    text-align: center;
+    width: 45%;
 }
-.goat-section-h2{
+
+.goat-section-h2 {
     font-size: 48px;
     font-weight: 600;
 }
-.goat-section-main-title{
+
+.goat-section-main-title {
     font-size: 95px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.goat-section-main-images{
+}
+.goat-section-main-contant li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pink-btn {
+    background-color: #FF42A5;
+    color: #fff;
+    border: none;
+    border-radius: 48px;
+    padding: 22px 40px;
+
+}
+
+.pink-btn a,
+.sky-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sky-btn {
+    background-color: #4EC5F7;
+    color: #fff;
+    border: none;
+    border-radius: 48px;
+    padding: 22px 40px;
+    margin-left: 24px;
+
+}
+
+.goat-section-btns {
+    padding-top: 40px;
+}
+
+/* ############## gamer-section-styling ############ */
+
+.we-are-gamer-section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+ margin-top: 40px;
+}
+.gamer-section-main-content{
+    max-width: 520px;
+    text-align: right;
+}
+.gamer-section-p{
+     
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+.gamer-section-main-title{
+    font-size: 48px;
     font-weight: 900;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.gamer-section-h2{
+    font-size: 32px;
+    color: #534C64;
+}
+.text-light{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
 }
