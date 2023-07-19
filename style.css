@@ -441,3 +441,39 @@
     flex-direction: column;
 }
 }
+
+/* ############ responssive for tablet ################# */
+@media screen and (max-width:786px) {
+    .header-section-nav{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        /* max-width: 400px; */
+       
+    }
+    .nav-items ul{
+        flex-direction: column;
+    
+    }
+    .goat-section-main{
+        /* max-width: 400px; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .we-are-gamer-section-main{
+        flex-direction: column;
+    }
+    .funny-section-all-boxes{
+        flex-direction: column;
+    }
+    .play-section-main{
+        flex-direction: column;
+    }
+    .action-buttom-main{
+        display: flex;
+        
+    }
+    .footer-section-ul{
+        flex-direction: column;
+    } 
+}
