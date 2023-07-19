@@ -64,9 +64,9 @@
     justify-content: center;
     gap: 68px;
     align-items: center;
-    background-color:  rgba(241, 68, 174, 0.03);
+    background-color: rgba(241, 68, 174, 0.03);
     margin-top: 37px;
- 
+
 }
 
 .goat-section-main-contant {
@@ -87,8 +87,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.goat-section-main-images{
-}
+
+.goat-section-main-images {}
+
 .goat-section-main-contant li {
     list-style: none;
     font-size: 20px;
@@ -127,42 +128,132 @@
 
 /* ############## gamer-section-styling ############ */
 
-.we-are-gamer-section-main{
+.we-are-gamer-section-main {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 53px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
- margin-top: 40px;
+    margin-top: 40px;
 }
-.gamer-section-main-content{
+
+.gamer-section-main-content {
     max-width: 520px;
     text-align: right;
 }
-.gamer-section-p{
-     
+
+.gamer-section-p {
+
     text-align: right;
     font-size: 18px;
     font-weight: 400;
     color: #534C64;
     padding-top: 24px;
     padding-bottom: 24px;
-    
+
 }
-.gamer-section-main-title{
+
+.gamer-section-main-title {
     font-size: 48px;
     font-weight: 900;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.gamer-section-h2{
+
+.gamer-section-h2 {
     font-size: 32px;
     color: #534C64;
 }
-.text-light{
+
+.text-light {
     color: #534C64;
     font-size: 24px;
     font-weight: 500;
+}
+
+/* ##############funny-section-styling ############## */
+.funny-vidoes-main-section {
+    text-align: center;
+}
+
+.funny-vidoes-section-main-content {
+    padding-top: 129px;
+}
+
+.funny-vidoes-main-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.background-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.funny-vidoes-main-p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    color: #534C64;
+
+}
+
+.funny-section-all-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 342px;
+    padding-top: 24px;
+}
+
+
+/* ############ play-section-styling ############# */
+.play-section-main {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 200px;
+}
+
+.play-section-main-content {
+    max-width: 350px;
+    text-align: right;
+}
+
+.play-section-main-title {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.play-section-background-color {
+    color:  #F948B2;
+}
+.play-section-main-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    padding-top: 24px;
+
+}
+.play-section-img{
+    max-width: 501px;
+    height: 650px;
+}
+.play-section-small-img{
+    position: absolute;
+    right: 750px;
+    bottom: -2000px;
 }
