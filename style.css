@@ -11,9 +11,9 @@
 .header-section-nav {
     display: flex;
     justify-content: space-around;
-    gap:112px;
+    gap:7rem;
     align-items: center;
-    padding-top: 38px;
+    padding-top: 2.5rem;
 }
 
 .nav-items ul {
@@ -28,13 +28,13 @@
 
 .follow-us-btn {
     background-color: rgba(11, 2, 35, 0.10);
-    padding: 18px 18px 18px 24px;
+    padding: 1.12rem 1.12rem 1.12rem 1.5rem;
     border-radius: 8px;
 }
 
 .follow-us-btn:hover {
     background-color: #fff;
-    border: 2px solid rgba(11, 2, 35, 0.10);
+    border: 0.125rem solid rgba(11, 2, 35, 0.10);
     ;
     font-weight: 700;
 }
@@ -42,19 +42,19 @@
 .nav-items a {
     text-decoration: none;
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
 .header-logo-icon {
-    font-size: 45px;
+    font-size: 2.8125rem;
 
 }
 
 .color-red {
     color: red;
-    margin-right: 16px;
-    margin-left: 24px;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
 }
 
 .color-blue {
@@ -69,25 +69,24 @@
 .goat-section-main {
     display: flex;
     justify-content: center;
-    gap: 68px;
+    gap: 4.25rem;
     align-items: center;
     background-color: rgba(241, 68, 174, 0.03);
-    margin-top: 37px;
+    margin-top: 2.125rem;
 
 }
 
 .goat-section-main-contant {
     text-align: center;
-    width: 45%;
 }
 
 .goat-section-h2 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 .goat-section-main-title {
-    font-size: 95px;
+    font-size: 5.93rem;
     font-weight: 900;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -99,7 +98,7 @@
 
 .goat-section-main-contant li {
     list-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -107,8 +106,8 @@
     background-color: #FF42A5;
     color: #fff;
     border: none;
-    border-radius: 48px;
-    padding: 22px 40px;
+    border-radius: 3rem;
+    padding: 1.375rem 2.5rem;
 
 }
 
@@ -116,23 +115,23 @@
 .sky-btn a {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .sky-btn {
     background-color: #4EC5F7;
     color: #fff;
     border: none;
-    border-radius: 48px;
-    padding: 22px 40px;
-    margin-left: 24px;
+    border-radius: 3rem;
+    padding: 1.375rem 2.5rem;
+    margin-left: 1.5rem;
 
 }
 
 .sky-btn:hover {
     background-color: #FFF;
     color: #4EC5F7;
-    border: 2px solid #4EC5F7;
+    border: 0.125rem solid #4EC5F7;
 }
 
 .sky-btn a:hover {
@@ -142,7 +141,7 @@
 .pink-btn:hover {
     background-color: #FFF;
     color: #FF42A5;
-    border: 2px solid #FF42A5;
+    border: 0.125rem solid #FF42A5;
 }
 
 .pink-btn a:hover {
@@ -153,7 +152,7 @@
 
 
 .goat-section-btns {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 /* ############## gamer-section-styling ############ */
@@ -162,29 +161,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 53px;
+    gap: 3.3125rem;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .gamer-section-main-content {
-    max-width: 520px;
+    max-width: 32.5rem;
     text-align: right;
 }
 
 .gamer-section-p {
 
     text-align: right;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #534C64;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 
 }
 
 .gamer-section-main-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -193,13 +192,13 @@
 }
 
 .gamer-section-h2 {
-    font-size: 32px;
+    font-size: 2rem;
     color: #534C64;
 }
 
 .text-light {
     color: #534C64;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -209,11 +208,11 @@
 }
 
 .funny-vidoes-section-main-content {
-    padding-top: 129px;
+    padding-top: 8rem;
 }
 
 .funny-vidoes-main-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -226,10 +225,10 @@
 }
 
 .funny-vidoes-main-p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    padding-top: 16px;
-    padding-bottom: 48px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
     color: #534C64;
 
 }
@@ -237,33 +236,34 @@
 .funny-section-all-boxes {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .box-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    max-width: 342px;
-    padding-top: 24px;
+    max-width: 21.37rem;
+    padding-top: 1.5rem;
 }
 
 
 /* ############ play-section-styling ############# */
 .play-section-main {
     display: flex;
-    gap: 200px;
+    gap: 12.5rem;
     align-items: center;
     justify-content: center;
-    margin: 120px 250px;
+    margin-top: 7.5rem ;
+    margin-bottom: 7.5rem ;
 }
 
 .play-section-main-content {
-    max-width: 350px;
+    max-width: 21.875rem;
     text-align: right;
 }
 
 .play-section-main-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 
 }
@@ -273,35 +273,35 @@
 }
 
 .play-section-main-paragraph {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #534C64;
-    padding-top: 24px;
+    padding-top: 1.5rem;
 
 }
 
 .play-section-img {
-    max-width: 501px;
-    height: 650px;
+    max-width: 31.25rem;
+    height: 40.62rem;
 }
 
 .play-section-small-img {
     position: relative;
-    right: 600px;
-    bottom: -100px;
+    right: 37.5rem;
+    bottom: -6.25rem;
 }
 
 /* ############## action-buttom-main-section-styling ################# */
 .action-buttom-main {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin: 10px auto;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    margin: 0.625rem auto;
 
 }
 
 .top-line {
-    margin: 10px auto;
+    margin:  0.625rem auto;
     text-align: center;
 }
 
@@ -312,15 +312,15 @@
 .action-btn {
     border: none;
     text-align: center;
-    border-radius: 48px;
-    font-size: 20px;
-    padding: 20px;
-    margin: 10px 5px 16px 57px;
+    border-radius:3rem;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    margin: 0.625rem 0.3125rem 1rem 3.5625rem;
 }
 
 .action-btn:hover {
     color: #FF42A5;
-    border: 2px solid #FF42A5;
+    border: 0.125rem solid #FF42A5;
 
 }
 
@@ -332,17 +332,17 @@
 }
 
 .footer-logo-icon {
-    padding-top: 120px;
+    padding-top: 7.5rem;
 }
 
 .footer-section-ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
-    padding-top: 56px;
+    gap: 3.75rem;
+    padding-top: 3.5rem;
     color: #fff;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 600;
 }
 
@@ -357,8 +357,8 @@
 }
 
 .footer-section-all-icon {
-    padding-top: 66px;
-    padding-bottom: 66px;
+    padding-top: 4.125rem;
+    padding-bottom: 4.125rem;
 }
 
 .footer-section-all-icon a {
@@ -369,14 +369,14 @@
 
 .icon {
 
-    padding-right: 40px;
+    padding-right: 2.5rem;
 }
 
 .footer-section-main-ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .footer-section-main li {
@@ -387,40 +387,68 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
     ;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .footer-section-details-main {
-    padding-bottom: 18px;
+    padding-bottom: 1.125rem;
 }
 .copyright-footer-p{
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.60);
-    padding-bottom: 130px;
+    padding-bottom: 8.125rem;
 }
 
 /* ########################media-quarey-styling ########################## */
 /* ########## for mobile ################### */
 
-@media screen and (max-width:425px ) {
-    body{
-        margin: 0;
-        max-width:100%;
-    }
+@media screen and (max-width:26.5625rem ) {
+  
 .header-section-nav{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    /* max-width: 400px; */
+    
    
 }
+.goat-section-h2{
+    font-size: 2rem;
+}
+.goat-section-main-title{
+    font-size: 3rem;
+}
+.goat-section-main-contant li {
+    font-size: 1.125rem;
+}
+.goat-section-btns{
+  flex-direction: column;
+  padding: 1rem 2rem;
+
+}
+.goat-section-large-img{
+    width: 25rem;
+}
+.gamer-section-main-img{
+ width: 25rem;
+}
+.gamer-section-main-content{
+    text-align: center;
+
+}
+.gamer-section-p{
+    font-size: 1rem;
+    width: 25rem;
+    text-align: center;
+    padding-left: 1rem;
+}
+
 .nav-items ul{
     flex-direction: column;
 
 }
 .goat-section-main{
-    /* max-width: 400px; */
+    
     flex-direction: column;
     align-items: center;
 }
