@@ -32,6 +32,13 @@
     border-radius: 8px;
 }
 
+.follow-us-btn:hover {
+    background-color: #fff;
+    border: 2px solid rgba(11, 2, 35, 0.10);
+    ;
+    font-weight: 700;
+}
+
 .nav-items a {
     text-decoration: none;
     color: #3C354F;
@@ -121,6 +128,29 @@
     margin-left: 24px;
 
 }
+
+.sky-btn:hover {
+    background-color: #FFF;
+    color: #4EC5F7;
+    border: 2px solid #4EC5F7;
+}
+
+.sky-btn a:hover {
+    color: #4EC5F7;
+}
+
+.pink-btn:hover {
+    background-color: #FFF;
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+}
+
+.pink-btn a:hover {
+    color: #FF42A5;
+
+}
+
+
 
 .goat-section-btns {
     padding-top: 40px;
@@ -224,7 +254,7 @@
     gap: 200px;
     align-items: center;
     justify-content: center;
-    margin: 120px 200px;
+    margin: 120px 250px;
 }
 
 .play-section-main-content {
@@ -239,21 +269,133 @@
 }
 
 .play-section-background-color {
-    color:  #F948B2;
+    color: #F948B2;
 }
-.play-section-main-paragraph{
+
+.play-section-main-paragraph {
     font-size: 18px;
     font-weight: 400;
     color: #534C64;
     padding-top: 24px;
 
 }
-.play-section-img{
+
+.play-section-img {
     max-width: 501px;
     height: 650px;
 }
-.play-section-small-img{
-    position: absolute;
-    right: 750px;
-    bottom: -2000px;
+
+.play-section-small-img {
+    position: relative;
+    right: 600px;
+    bottom: -100px;
+}
+
+/* ############## action-buttom-main-section-styling ################# */
+.action-buttom-main {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 10px auto;
+
+}
+
+.top-line {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.bottom-line {
+    text-align: center;
+}
+
+.action-btn {
+    border: none;
+    text-align: center;
+    border-radius: 48px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px 5px 16px 57px;
+}
+
+.action-btn:hover {
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+
+}
+
+/* ###############foooter-section-styling ##################### */
+.footer-section-main {
+    background: #0B0223;
+    text-align: center;
+    color: white;
+}
+
+.footer-logo-icon {
+    padding-top: 120px;
+}
+
+.footer-section-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 56px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-section-ul li {
+    list-style: none;
+
+}
+
+.footer-section-ul a {
+    text-decoration: none;
+
+}
+
+.footer-section-all-icon {
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.footer-section-all-icon a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.icon {
+
+    padding-right: 40px;
+}
+
+.footer-section-main-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-section-main li {
+    list-style: none;
+}
+
+.footer-section-main a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-section-details-main {
+    padding-bottom: 18px;
+}
+.copyright-footer-p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    padding-bottom: 130px;
 }
