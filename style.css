@@ -434,6 +434,8 @@
 }
 .gamer-section-main-content{
     text-align: center;
+    padding-bottom: 1rem;
+
 
 }
 .gamer-section-p{
@@ -442,11 +444,42 @@
     text-align: center;
     padding-left: 1rem;
 }
+.funny-vidoes-main-p{
+    width: 25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.box-title {
+text-align: center;
+padding-left: 3rem;
+width: 25rem;
+}
 
-.nav-items ul{
+.play-section-main-content{
+    width: 25rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.play-section-small-img{
+ top:-7rem;
+ left: 2.5rem;
+ width: 13rem;
+}
+.action-buttom-main{
+    padding-top: 3rem;
+}
+.action-btn{
+    padding: 0.625rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem 0.5rem 0.8rem 0.8rem  ;
+    
+}
+/* .nav-items ul{
     flex-direction: column;
 
-}
+} */
 .goat-section-main{
     
     flex-direction: column;
